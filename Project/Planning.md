@@ -1,5 +1,7 @@
 # Project Phase 1 - Definition and Planning
 
+https://www.figma.com/design/1GpgiS9BMvTWFRAgaNZ3HI/Untitled?node-id=0-1&m=dev&t=TrdPabgj1k1kzurm-1
+
 ## 1. User Personas
 In order to create a realistic and engaging experience, we have identified the following key user personas:
 
