@@ -14,7 +14,7 @@ In order to create a realistic and engaging experience, we have identified the f
   - **Behavior:** Engages more frequently, looks for high scores or leaderboards.
 
 - **Curious Newcomer:**
-  - **Age:** 16-20
+  - **Age:** 18-20
   - **Motivation:** Exploring and learning new games.
   - **Behavior:** Tries multiple games, values tutorials and guidance.
 
