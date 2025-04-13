@@ -41,6 +41,7 @@
 │|   styles.css
 │|   script.js
 ||   terms.html
+|/ (node_modules)
 ```
 - JavaScript files handle game logic (e.g., `blackjack.js`).
 - HTML pages link to JS and CSS files.
