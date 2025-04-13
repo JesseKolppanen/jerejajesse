@@ -6,9 +6,7 @@
 - Project runs in browser and consists of static HTML, CSS, and JavaScript files for frontend.
 
 ## 2. Backend
-- No backend server yet in the current version; everything runs on the client side.
-- Future backend will be implemented with Node.js + Express.
-- Data like scores and user info will be stored in MongoDB.
+- Backend implemented with Node.js.
 
 ## 3. Frontend
 - Pure HTML, CSS, and JavaScript.
