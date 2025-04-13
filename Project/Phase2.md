@@ -31,10 +31,14 @@
 ```
 / (root)
 │   index.html
+|   blackjack.css
 │   blackjack.html
 │   blackjack.js
+|   slots.html
+|   slots.js
 │   styles.css
 │   script.js
+|   terms.html
 ```
 - JavaScript files handle game logic (e.g., `blackjack.js`).
 - HTML pages link to JS and CSS files.
