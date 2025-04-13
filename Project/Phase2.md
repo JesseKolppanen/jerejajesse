@@ -22,7 +22,7 @@
 
 ## 4. Database
 - Not yet implemented.
-- Planned MongoDB usage to store scores, players, and sessions.
+- Planned Mongoose usage to store scores, players, and sessions.
 
 ## 5. Basic Structure and Architecture
 - Project folder structure is flat:
