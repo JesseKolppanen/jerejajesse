@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fi"> <!-- Määrittelee kielen suomeksi -->
+<head>
+    <meta charset="UTF-8"> <!-- Määrittelee merkistön UTF-8:ksi -->
+    <title>Blackjack</title> <!-- Välilehden nimi selaimessa -->
+    <link rel="stylesheet" href="styles.css"> <!-- Linkitetään ulkoinen CSS-tiedosto -->
+</head>
+<body>
+    <div class="main-container"> <!-- Sivun pääkontaineri -->
+
+        <!-- Yläosa, jossa otsikko ja pieni kuvaus -->
+        <div class="header red">
+            <h1>BLACKJACK</h1>
+            <p>(Ei oikeeta rahaa)</p>
+        </div>
+
+        <!-- Blackjack-pelin alue -->
+        <div class="blackjack-area">
+
+            <!-- Tila-teksti pelaajalle -->
+            <div class="status" id="status">Tervetuloa Blackjackiin!</div>
+
+            <!-- Korttien näyttöalue -->
+            <div class="cards">
+                <div>
+                    <h2>Jakaja</h2>
+                    <div id="dealer-cards" class="card-row"></div> <!-- Jakajan kortit -->
+                    <div id="dealer-score">Pisteet: 0</div> <!-- Jakajan pistemäärä -->
+                </div>
+                <div>
+                    <h2>Pelaaja</h2>
+                    <div id="player-cards" class="card-row"></div> <!-- Pelaajan kortit -->
+                    <div id="player-score">Pisteet: 0</div> <!-- Pelaajan pistemäärä -->
+                </div>
+            </div>
+
+            <!-- Pelivalikot -->
+            <div class="menu">
+                <button class="btn green" onclick="startGame()">Uusi peli</button> <!-- Aloita uusi peli -->
+                <button class="btn green" onclick="hit()">Ota kortti</button> <!-- Pelaaja ottaa uuden kortin -->
+                <button class="btn green" onclick="stand()">Jää</button> <!-- Pelaaja jää, ei ota enempää kortteja -->
+                <a href="index.html" class="btn pink">Takaisin</a> <!-- Linkki takaisin etusivulle -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Linkitetään JavaScript-tiedosto, jossa pelilogiikka sijaitsee -->
+    <script src="blackjack.js"></script>
+</body>
+</html>

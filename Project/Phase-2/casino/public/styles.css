@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    background-color: #d19c99;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header {
+    background-color: #990f0f;
+    color: white;
+    padding: 30px 20px 20px;
+    margin: 0 auto 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    position: relative; /* Varmistaa, että kirjautumisnappi on suhteessa tähän osioon */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4CAF50; /* Vihreä väri */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-btn:hover {
+    background-color: #45a049; /* Tummempi vihreä hover-tilassa */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a.btn {
+    color: white;
+    text-decoration: none;
+}
+
+.slots {
+    background-color: #B95C00;
+}
+
+.blackjack {
+    background-color: #18E325;
+}
+
+.terms {
+    background-color: #E200DF;
+}
+
+.slots-area {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.slot-display {
+    font-size: 60px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.terms-area {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.terms-text {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px #000;
+}
+body {
+    margin: 0;
+    background-color: #d19c99;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.header {
+    background-color: #990f0f;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #990f0f;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #990f0f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background-color: #660606;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #990f0f;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    background-color: #d19c99;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.header {
+    background-color: #990f0f;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #990f0f;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #990f0f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background-color: #660606;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #990f0f;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

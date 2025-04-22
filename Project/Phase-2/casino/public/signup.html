@@ -1,0 +1,25 @@
+<!-- Muutetaan action-osoite backendin rekisteröitymispalvelimelle -->
+<form action="http://localhost:3000/signup" method="POST">
+    <div class="input-group">
+        <label for="username">Käyttäjätunnus</label>
+        <input type="text" id="username" name="username" placeholder="Syötä käyttäjätunnus" required>
+    </div>
+
+    <div class="input-group">
+        <label for="password">Salasana</label>
+        <input type="password" id="password" name="password" placeholder="Syötä salasana" required>
+    </div>
+
+    <div class="input-group">
+        <label for="confirm-password">Vahvista salasana</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Vahvista salasana" required>
+    </div>
+
+    <div class="button-group">
+        <button type="submit" class="btn">Rekisteröidy</button>
+    </div>
+
+    <div class="login-link">
+        <p>Onko sinulla jo tili? <a href="login.html">Kirjaudu sisään täällä</a></p>
+    </div>
+</form>

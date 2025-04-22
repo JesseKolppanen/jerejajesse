@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <!-- Määritellään merkistökoodaus ja sivun otsikko -->
+    <meta charset="UTF-8">
+    <title>Slots</title>
+
+    <!-- Linkitetään ulkoinen tyylitiedosto -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sivun pääkontaineri -->
+    <div class="main-container">
+
+        <!-- Ylätunniste, jossa pelin nimi -->
+        <div class="header red">
+            <h1>SLOTIT</h1>
+            <p>(Feikkirahaa tietenkin)</p>
+        </div>
+
+        <!-- Slot-pelin pääalue -->
+        <div class="slots-area">
+
+            <!-- Näyttöalue, jossa näkyy kolme slottisymbolia -->
+            <div id="slot-display" class="slot-display">
+                🎰 🎰 🎰
+            </div>
+
+            <!-- Valikko, jossa pyöräytyspainike ja linkki takaisin etusivulle -->
+            <div class="menu">
+                <button class="btn orange" onclick="spin()">Pyöräytä!</button>
+                <a href="index.html" class="btn pink">Takaisin</a>
+            </div>
+
+            <!-- Tila-alue, jossa annetaan käyttäjälle palautetta -->
+            <div class="status" id="slot-status">Painat nappia, niin nähdään mitä tulee!</div>
+        </div>
+    </div>
+
+    <!-- Linkitetään slottipelin JavaScript-tiedosto -->
+    <script src="slots.js"></script>
+</body>
+</html>
