@@ -124,12 +124,13 @@ function hit() {
 
 | Date       | Time | Task                                |
 |------------|------|-------------------------------------|
-| 4.4.2025   | 10h   | Set up project structure and server |
-| 6.4.2025   | 8h   | Designed UI for index and games     |
-| 9.4.2025   | 4h   | Developed Blackjack game logic      |
-| 12.4.2025  | 10h   | Testing and debugging gameplay      |
-| 15.4.2025  | 5h   | Styling and minor improvements      |
-| **Total**  | **37h** |                                 |
+| 21.3.2025   | 10h   | Set up project structure and server |
+| 2.4.2025   | 8h   | Designed UI for index and games     |
+| 4.4.2025   | 4h   | Developed Blackjack game logic      |
+| 11.4.2025  | 10h   | Testing and debugging gameplay      |
+| 14.4.2025  | 2h   | More testing                        |
+| 23.4.2025  | 5h   | Styling and minor improvements      |
+| **Total**  | **39h** |                                 |
 
 ---
 
