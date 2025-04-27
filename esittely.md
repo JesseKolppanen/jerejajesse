@@ -16,9 +16,9 @@ The focus was on building working games with a clean user interface and modular 
 
 | Use Case | Implemented (Yes/No) | Demonstration / Notes |
 |----------|----------------------|------------------------|
-| User selects and plays a game | Yes | Blackjack and Slots available. Demo at 0:20. |
-| User views simple game rules | Yes | Instructions shown on each game page. Demo at 1:00. |
-| User sees game outcome (win/lose) | Yes | Blackjack game displays win/loss status after play. Demo at 1:50. |
+| User selects and plays a game | Yes | Blackjack and Slots available. |
+| User views simple game rules | Yes | Instructions shown on each game page. |
+| User sees game outcome (win/lose) | Yes | Blackjack game displays win/loss status after play. |
 | User registration and login | No | Planned for future versions. |
 
 ---
